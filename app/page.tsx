@@ -50,6 +50,7 @@ export default function Home() {
                 },
               ]}
               categoryId={1}
+              listClassName={""}
             />
           </div>
         </div>
