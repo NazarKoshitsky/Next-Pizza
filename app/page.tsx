@@ -1,6 +1,5 @@
 import { Container, Filters, Title } from "@/components/shared";
 import { TopBar } from "@/components/shared";
-import { ProductCard } from "@/components/shared/product-card";
 import { ProductsGroupList } from "@/components/shared/products-group-list";
 
 export default function Home() {
@@ -22,7 +21,7 @@ export default function Home() {
           {/* List of products */}
           <div className="flex flex-col gap-16">
             <ProductsGroupList
-              title="Pizzas"
+              title="Pizza"
               items={[
                 {
                   id: 1,
@@ -33,7 +32,7 @@ export default function Home() {
                   items: [{ price: 23 }],
                 },
                 {
-                  id: 1,
+                  id: 2,
                   name: "Margherita",
                   imageUrl:
                     "https://media.dodostatic.net/image/r:292x292/11ee7d6134bc4150bdd8e792d866ab52.avif",
@@ -41,7 +40,23 @@ export default function Home() {
                   items: [{ price: 23 }],
                 },
                 {
-                  id: 1,
+                  id: 3,
+                  name: "Margherita",
+                  imageUrl:
+                    "https://media.dodostatic.net/image/r:292x292/11ee7d6134bc4150bdd8e792d866ab52.avif",
+                  price: 23,
+                  items: [{ price: 23 }],
+                },
+                {
+                  id: 22,
+                  name: "Margherita",
+                  imageUrl:
+                    "https://media.dodostatic.net/image/r:292x292/11ee7d6134bc4150bdd8e792d866ab52.avif",
+                  price: 23,
+                  items: [{ price: 23 }],
+                },
+                {
+                  id: 23,
                   name: "Margherita",
                   imageUrl:
                     "https://media.dodostatic.net/image/r:292x292/11ee7d6134bc4150bdd8e792d866ab52.avif",
@@ -50,6 +65,37 @@ export default function Home() {
                 },
               ]}
               categoryId={1}
+              listClassName={""}
+            />
+            <ProductsGroupList
+              title="Combo"
+              items={[
+                {
+                  id: 4,
+                  name: "Margherita",
+                  imageUrl:
+                    "https://media.dodostatic.net/image/r:292x292/11ee7d6134bc4150bdd8e792d866ab52.avif",
+                  price: 23,
+                  items: [{ price: 23 }],
+                },
+                {
+                  id: 5,
+                  name: "Margherita",
+                  imageUrl:
+                    "https://media.dodostatic.net/image/r:292x292/11ee7d6134bc4150bdd8e792d866ab52.avif",
+                  price: 23,
+                  items: [{ price: 23 }],
+                },
+                {
+                  id: 6,
+                  name: "Margherita",
+                  imageUrl:
+                    "https://media.dodostatic.net/image/r:292x292/11ee7d6134bc4150bdd8e792d866ab52.avif",
+                  price: 23,
+                  items: [{ price: 23 }],
+                },
+              ]}
+              categoryId={2}
               listClassName={""}
             />
           </div>
