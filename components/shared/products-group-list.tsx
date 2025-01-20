@@ -1,6 +1,6 @@
 "use client";
 
-import React, { use } from "react";
+import React from "react";
 import { useIntersection } from "react-use";
 
 import { Title } from "./title";
