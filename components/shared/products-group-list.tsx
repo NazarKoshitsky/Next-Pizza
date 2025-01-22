@@ -13,7 +13,7 @@ interface Props {
   items: any[];
   categoryId: number;
   className?: string;
-  listClassName: string;
+  listClassName?: string;
 }
 
 export const ProductsGroupList: React.FC<Props> = ({
